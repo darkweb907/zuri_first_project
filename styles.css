@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header img {
+    width: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make it circular */
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    color: #333;
+}
+
+[data-testid="currentDayOfTheWeek"],
+[data-testid="currentUTCTime"],
+[data-testid="myTrack"] {
+    font-size: 1.2rem;
+    color: #555;
+}
