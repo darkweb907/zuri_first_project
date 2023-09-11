@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const dayOfTheWeekElement = document.querySelector('[data-testid="currentDayOfTheWeek"]');
         const utcTimeElement = document.querySelector('[data-testid="currentUTCTime"]');
 
-        const Week = OurWeekWeek();
+        const Week = OurWeek();
         const currentUTCTime = new Date().getTime();
 
         dayOfTheWeekElement.textContent = `Current Day of the Week: ${Week}`;

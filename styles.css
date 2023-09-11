@@ -4,12 +4,24 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.repo{
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid rgba(0, 2.5, 3.4, 0.5);
+    cursor: pointer;
+    transition: all ease cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+a{
+    text-decoration: none !important ;
+}
 header {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+}
+.repo:hover{
+    border: 2px solid rgba(6, 99, 99, 0.5);;
 }
 
 header h1 {
